@@ -1,47 +1,60 @@
-# Foodie-Heaven
-Foodie Heaven is a responsive restaurant landing page built using HTML, CSS, and Bootstrap. The project showcases a modern food website layout with a hero section, navigation bar, best sellers section, and clean UI design.
+# 🍽️ Foodie Heaven
+
+Foodie Heaven is a fully responsive multi-page restaurant website built using **HTML, CSS, and Bootstrap**.  
+The project showcases a modern UI design with smooth layout, clean sections, and mobile-friendly responsiveness.
 
 ---
 
-## 🚀 Live Preview
-Open the `index.html` file in your browser to view the website.
+## 🚀 Features
 
----
-
-## 📸 Preview
-A visually appealing hero section with a call-to-action button, followed by a best sellers section showcasing popular dishes.
-
----
-
-## ✨ Features
 - Responsive navigation bar  
-- Hero section with background image and CTA button  
+- Hero section with background image and call-to-action  
 - Best Sellers section with food cards  
-- Clean and modern UI  
-- Fully responsive using Bootstrap  
+- About page with brand story and team section  
+- Services page with dine-in, delivery, catering, and meal plans  
+- Contact page with working layout contact form  
+- Clean and modern UI using Bootstrap  
+- Fully responsive for all screen sizes  
 
 ---
 
 ## 🛠️ Tech Stack
+
 - HTML5  
 - CSS3  
 - Bootstrap 5  
 
 ---
 
-## 📂 Project Structure
-Foodie-Heaven/
-│
-├── index.html
-├── css/
-│ └── style.css
-├── images/
-│ └── (website images)
-└── README.md
+## 🏠 Home
+- Hero banner with tagline and CTA button  
+- Best sellers section displaying popular dishes  
+
+## 👥 About
+- Story section explaining the brand journey  
+- Team introduction  
+- Core values and mission  
+
+## 🍴 Services
+- Dine-in experience  
+- Home delivery  
+- Event catering  
+- Weekly meal plans  
+
+## 📩 Contact
+- Contact form with name, email, subject, and message fields  
+- Business contact details and working hours  
 
 ---
 
-## 🎯 Purpose
-This project was created to practice frontend development skills and understand responsive web design using Bootstrap components.
+## ▶️ How to Run Locally
 
----
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/foodie-heaven.git
+
+2.Navigate to the project folder
+
+cd foodie-heaven
+
+3.Open index.html in your browser
