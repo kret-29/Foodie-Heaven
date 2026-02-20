@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+    <style>
+        .hero {
+            background: url('./bgboot.png') center/cover no-repeat;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 0 3px 10px rgba(0, 0, 0, .4);
+        }
+
+        .food-card img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!--navbar start-->
+
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold fs-3" href="index.html">Foodie Heaven</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto gap-3 fs-5">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--navbar end-->
+    <!--bg slider start-->
+    <section class="hero">
+        <div class="text-center">
+            <h1 class="display-3 fw-bold">Taste That Hits Different</h1>
+            <p class="lead mb-4">Fresh. Aesthetic. Straight bussin.</p>
+            <a href="#menu" class="btn btn-lg btn-warning fw-bold">Check Menu</a>
+        </div>
+    </section>
+
+    <!--bg slider end-->
+
+    <!--menu start-->
+    <section id="menu" class="py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-4">Our Best Sellers</h2>
+
+            <div class="row g-4">
+
+                <div class="col-md-4">
+                    <div class="card food-card shadow-sm">
+                        <img src="./burger.jpg" class="card-img-top " alt="">
+                        <div class="card-body ">
+                            <h5 class="card-title fw-bold">Classic Burger</h5>
+                            <p class="card-text">Juicy, melty, and basically your new obsession.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card food-card shadow-sm">
+                        <img src="./salad.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Fresh Salad</h5>
+                            <p class="card-text">For when you’re tryna stay healthy but still eat good.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card food-card shadow-sm">
+                        <img src="./Pasta.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Veggie Pasta Bowl </h5>
+                            <p class="card-text">Creamy pasta loaded with fresh veggies.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card food-card shadow-sm">
+                        <img src="./GrilledSandwich.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Grilled Sandwich</h5>
+                            <p class="card-text">Grilled bread filled with fresh veggies and cheese.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card food-card shadow-sm">
+                        <img src="./FruitBowl.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Fruit Bowl</h5>
+                            <p class="card-text">Chilled mix of fresh seasonal fruits.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="card food-card shadow-sm">
+                        <img src="./Soup.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title fw-bold">Veggie Soup </h5>
+                            <p class="card-text">Light veggie broth with soft, fresh veggies.</p>
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!--menu end-->
+    <!--footer start-->
+    <section id="contact" class="py-5 bg-light">
+        <div class="container text-center">
+            <h2 class="fw-bold mb-3">Hit Us Up</h2>
+            <p class="mb-4">Got questions? Wanna collab? Slide in.</p>
+            <a href="./contact.html" class="btn btn-dark">Email Us</a>
+        </div>
+    </section>
+
+    <!--footer end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
